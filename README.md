@@ -96,8 +96,8 @@ model = DenoisingAutoencoder().to(device)
 criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=1e-3)
 
-print("Name: Sharan Kumar G")
-print("Register Number: 212224230260")
+print("Name: Gokul S")
+print("Register Number: 212224240044")
 summary(model, input_size=(1, 28, 28))
 
 def train(model, loader, criterion, optimizer, epochs=5):
@@ -131,8 +131,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: Sharan Kumar G")
-    print("Register Number: 212224230260")
+    print("Name: Gokul S")
+    print("Register Number: 212224240044")
     plt.figure(figsize=(18, 6))
 
     for i in range(num_images):
